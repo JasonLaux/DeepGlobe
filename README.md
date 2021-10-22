@@ -16,3 +16,6 @@ The encoder has three convolutional layers with different sizes. The number of m
 
 ## Issues
 Based on the configuration of my device, it is really hard to train a large network in an effcient time. Going through all 3 epoches can take 45 minutes on my device. Also I tried running my code in Colab using GPU, but it took much longer time in reading satellite images using 'cv2.imread()'. 
+
+## Future improvement
+Implement more advanced models such as D-Linknet (1-st place in the competition) if more time is allowed and more powerful hardware is able to use. Output binary masks using image segmentation based on predicted grayscale masks. Need measurement of accuracy to compare predicted masks and true masks.
